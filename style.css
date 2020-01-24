@@ -66,3 +66,10 @@ p {
 			.navigation ul li a:hover {
 				background: #555;
 			}
+
+.footer {
+	padding: 4rem 0rem;
+	background: #f2f2f2;
+	text-align: center;
+	margin-top: 4rem;
+}
