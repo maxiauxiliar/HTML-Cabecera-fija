@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-	margin-bottom: 1.6em
+	margin-bottom: 1.6em;
 }
 
 
@@ -20,6 +20,11 @@ p {
 	background: #333;
 	color: white;
 	padding: 2rem 0rem;
+
+	position: fixed;	// Lo saca hacia adelante, hay que agregar padding
+	left: 0;
+	top: 0;
+	width: 100%;
 }
 
 	.header a {
@@ -27,6 +32,10 @@ p {
 		text-decoration: none;
 	}
 
+
+.main {
+	padding-top: 8rem;
+}
 
 .container {
 	width: 85%;
